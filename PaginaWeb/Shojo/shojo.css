@@ -1,0 +1,215 @@
+.negro {
+    background: #000;
+}
+
+body{
+    margin: 0;
+}
+.parallax {
+    background: linear-gradient(to right, rgba(139, 125, 125, 0.5), rgba(216, 206, 206, 0.5)), url("IMAGENES/shojo\ aninme.png");  
+    height: 85vh;
+    background-attachment: fixed;
+    background-position: 100% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: alternate expansion 2.5s infinite;
+ }
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Alegreya';
+    font-size: 1.8rem;
+    padding: 15px 0px;
+    transition: all 5s;
+}
+
+
+ul li a {
+    text-decoration: none;
+    padding: 3px 5px;
+    font-family: 'IBM Plex Sans';
+    color: #fff;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding: 15px 0px;
+}
+
+ul li a:hover {
+    font-size: 80%;
+}
+
+/*TORADORA!*/
+
+section#toradora h2{
+    font-family: 'Bangers';
+    text-align: center;
+}
+
+section#toradora img{
+    width: 400px;
+    display:block;
+    margin:auto;
+    padding: 10px;
+}
+
+section#toradora p{
+    font-family: 'Nanum Myeongjo';
+    text-align: center;
+    padding: 0px 15px;
+}
+
+section#toradora a{
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    font-family: 'Nanum Myeongjo';
+    padding: 10px 0px;
+    text-decoration: none;
+    color: #000;
+}
+section#toradora a:hover {
+    font-size: 80%;
+}
+
+/*SAILOR MOON*/
+
+section#sailormoon h2{
+    font-family: 'Bangers';
+    text-align: center;
+    color: #fff;
+    padding: 15px 15px 0px 15px;
+}
+
+section#sailormoon img{
+    width: 400px;
+    display:block;
+    margin:auto;
+    padding: 10px;
+}
+
+section#sailormoon p{
+    font-family: 'Nanum Myeongjo';
+    text-align: center;
+    padding: 0px 15px;
+    color: #fff;
+}
+
+section#sailormoon a{
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    font-family: 'Nanum Myeongjo';
+    padding: 10px 0px;
+    text-decoration: none;
+    color: #fff;
+}
+section#sailormoon a:hover {
+    font-size: 80%;
+}
+
+/*FRUITS BASKET*/
+
+section#fruitsbasket h2{
+    font-family: 'Bangers';
+    text-align: center;
+}
+
+section#fruitsbasket img{
+    width: 400px;
+    display:block;
+    margin:auto;
+    padding: 10px;
+}
+
+section#fruitsbasket p{
+    font-family: 'Nanum Myeongjo';
+    text-align: center;
+    padding: 0px 15px;
+}
+
+section#fruitsbasket a{
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    font-family: 'Nanum Myeongjo';
+    padding: 10px 0px;
+    text-decoration: none;
+    color: #000;
+}
+section#fruitsbasket a:hover {
+    font-size: 80%;
+}
+
+/*KAMISAMA HAJIMEMASHITA*/
+
+section#kamisama h2{
+    font-family: 'Bangers';
+    text-align: center;
+    color: #fff;
+    padding: 15px 15px 0px 15px;
+}
+
+section#kamisama img{
+    width: 400px;
+    display:block;
+    margin:auto;
+    padding: 10px;
+}
+
+section#kamisama p{
+    font-family: 'Nanum Myeongjo';
+    text-align: center;
+    padding: 0px 15px;
+    color: #fff;
+}
+
+section#kamisama a{
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    font-family: 'Nanum Myeongjo';
+    padding: 10px 0px;
+    text-decoration: none;
+    color: #fff;
+}
+section#kamisama a:hover {
+    font-size: 80%;
+}
+
+/*BOTON FLOTANTE*/
+a#botonflotante {
+    cursor: pointer;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border: none;
+    border-radius: 75%;
+    font-size: 1.5rem;
+    background: #1b1b1b;
+    color: #dcd5c2;
+    padding: 10px 15px;
+    transition: all 300ms;
+}
+
+a#botonflotante:hover {
+    background: #dcd5c2;
+    color: #1b1b1b;
+    transform: scale(1.3);
+}
